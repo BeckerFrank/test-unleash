@@ -6,6 +6,11 @@ All notable changes to this project will be documented in this file.
 - nothing
 
 
+## [1.0.6] - 2019-12-07
+### Added
+- qqqqq
+
+
 ## [1.0.5] - 2019-12-06
 ### Added
 - qqqqq
@@ -36,7 +41,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial version
 
-[unreleased]: https://github.com/BeckerFrank/test-unleash/compare/1.0.5...HEAD
+[unreleased]: https://github.com/BeckerFrank/test-unleash/compare/1.0.6...HEAD
+[1.0.6]: https://github.com/BeckerFrank/test-unleash/compare/1.0.5...1.0.6
 [1.0.5]: https://github.com/BeckerFrank/test-unleash/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/BeckerFrank/test-unleash/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/BeckerFrank/test-unleash/compare/1.0.2...1.0.3
