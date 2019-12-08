@@ -3,7 +3,7 @@
 
 	<groupId>de.becker.frank</groupId>
 	<artifactId>test-project</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -19,7 +19,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/BeckerFrank/test-unleash.git</connection>
 		<url>https://github.com/BeckerFrank/test-unleash</url>
-<tag>HEAD</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<build>
@@ -40,6 +40,11 @@
 							<artifactId>org.eclipse.jgit</artifactId>
 							<version>5.1.2.201810061102-r</version>
 						</dependency>
+						<dependency>
+							<groupId>com.itemis.maven.plugins</groupId>
+							<artifactId>cdi-plugin-hooks</artifactId>
+							<version>0.1.1</version>
+						</dependency>
 					</dependencies>
 				</plugin>
 			</plugins>
@@ -49,10 +54,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.11.2</version>
-<!-- 				<configuration> -->
-<!-- 					<username>BeckerFrank</username> -->
-<!-- 					<password>Fkp-Xu9-VZX-Jtq</password> -->
-<!-- 				</configuration> -->
+				<!-- <configuration> -->
+				<!-- <username>BeckerFrank</username> -->
+				<!-- <password>Fkp-Xu9-VZX-Jtq</password> -->
+				<!-- </configuration> -->
 			</plugin>
 		</plugins>
 	</build>
